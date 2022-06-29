@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Задания 2</title>
+    <link rel="stylesheet" href="Skeleton-2.0.4/css/normalize.css">
+    <link rel="stylesheet" href="Skeleton-2.0.4/css/skeleton.css">
+    <style>
+        .nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .nav > ul > li {
+            float: left;
+            width: 280px;
+            position: relative;
+        }
+
+        .nav li a {
+            display: block;
+            background: yellow;
+            border: 3px solid black;
+            padding: 8px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav li .second {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        nav li:hover .second {
+            display: block;
+        }
+
+        .nav li li {
+            width: 140px;
+        }
+        .div_1 {
+            border: 3px solid black;
+            height: 200px;
+            width: 170px;
+        }
+        #id{
+            background:red;
+        }
+        #rt{
+            background:purple;
+        }
+        #op{
+            background:orange;
+        }
+        #xz{
+            background:green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+
+            <div class="two columns">
+                <figure><img src="Skeleton-2.0.4/images/favicon.png"></figure>
+            </div>
+
+
+            <div class="two columns">
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a>Меню</a>
+                            <ul class="second">
+                                <li><a href="C:\Users\Acer\OneDrive\Документы\HTML 4\Задание4.html" style="border:3px dashed black; background:blue;">Форма</a></li>
+                                <li><a href="C:\Users\Acer\OneDrive\Документы\HTML 4\задание 3.html" style="border: 3px dashed black; background: red;">Шахматная доска</a></li>
+                                <li><a href="C:\Users\Acer\OneDrive\Документы\HTML 6\zadanie 3.html" style="border: 3px dashed black; background: purple;">Фотогалерея</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="three columns">
+                <h5>Красный цвет</h5>
+            </div>
+            <div class="three columns">
+                <h5>Зеленый цвет</h5>
+            </div>
+            <div class="three columns">
+                <h5>Фиолетовый цвет</h5>
+            </div>
+            <div class="three columns">
+                <h5>Оранжевый цвет</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="three columns">
+            <div class="div_1" id="id"></div>
+        </div>
+        <div class="three columns">
+            <div class="div_1" id="xz" ></div>
+        </div>
+        <div class="three columns">
+            <div class="div_1" id="rt"></div>
+        </div>
+        <div class="three columns">
+            <div class="div_1" id="op"></div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

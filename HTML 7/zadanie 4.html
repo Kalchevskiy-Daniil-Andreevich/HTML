@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Задание 4</title>
+    <style>
+@keyframes myanimation{
+0%{background-image:url(argentina.jpg);}
+25%{background-image:url(italia.jpg);}
+50%{background-image:url(china.jpg);}
+75%{background-image:url(japan.jpg);}
+100%{background-image:url(mexico.jpg);}
+}
+        div {
+            display: inline-block;
+            border: 5px solid red;
+            position: relative;
+            animation: myanimation 5s linear infinite;
+            width:600px;
+            height: 450px;
+            margin-left:500px;
+        }
+        @keyframes fade {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0.8
+            }
+        }
+
+        h1 {
+            text-align: center;
+            animation: fade 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Анимация</h1>
+    <div>
+
+    </div>
+</body>
+</html>

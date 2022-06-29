@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="StyleSheet1.css"?>
+<FACULTY
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Shema.xsd">
+	<SPECIALIZATION>
+		<NAME>Холодное сердце</NAME>
+		<TIME>1:38</TIME>
+		<COUNTRY>USA</COUNTRY>
+		<AGE>6+</AGE>
+		<STUDIO>Уолт Дисней</STUDIO>
+	</SPECIALIZATION>
+
+	<SPECIALIZATION>
+		<NAME>Веном 2</NAME>
+		<TIME>1:36</TIME>
+		<COUNTRY>USA</COUNTRY>
+		<AGE>16+</AGE>
+		<STUDIO>Sony</STUDIO>
+	</SPECIALIZATION>
+</FACULTY>

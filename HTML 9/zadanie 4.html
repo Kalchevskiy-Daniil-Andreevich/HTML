@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Задания 4</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 100px 500px 200px;
+            grid-template-rows: 200px 400px 100px;
+            grid-gap: 8px;
+        }
+
+        .div1 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            background-color: #7FFF00;
+        }
+
+        .div2 {
+            grid-row-start: 1;
+            grid-row-end: 1;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: #7FFF00;
+        }
+
+        .div3 {
+            grid-row-start: 2;
+            grid-row-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            background-color: #7FFF00;
+        }
+
+        .div4 {
+            grid-row-start: 2;
+            grid-row-end: 2;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            background-color: #7FFF00;
+        }
+
+        .div5 {
+            grid-row-start: 3;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: #7FFF00;
+        }
+        .nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .nav > ul > li {
+            float: left;
+            width: 100px;
+            position: relative;
+        }
+
+        .nav li a {
+            display: block;
+            background: yellow;
+            border: 3px solid black;
+            padding: 8px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav li .second {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        nav li:hover .second {
+            display: block;
+        }
+
+        .nav li li {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="div1">
+
+
+
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a>Меню</a>
+                        <ul class="second">
+                            <li><a href="C:\Users\Acer\OneDrive\Документы\HTML 4\Задание4.html" style="border:3px dashed black; background:blue;">Форма</a></li>
+                            <li><a href="C:\Users\Acer\OneDrive\Документы\HTML 4\задание 3.html" style="border: 3px dashed black; background: red;">Шахматная доска</a></li>
+                            <li><a href="C:\Users\Acer\OneDrive\Документы\HTML 6\zadanie 3.html" style="border: 3px dashed black; background: purple;">Фотогалерея</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+
+        </div>
+        <div class="div2">
+            Для выравнивания содержимого используется justify-self по горизонтали или align-self по вертикали.
+        </div>
+        <div class="div3">
+            Чтобы объединить ячейки сетки используются свойства grid-column-start(grid-column-end) и grid-rowstart(grid-row-end), значениями которых указывается номер линии сетки
+        </div>
+        <div class="div4">
+            Чтобы установить промежутки пробелов между колонками или строками используются свойства grid-column-rap и grid-row-rap.
+        </div>
+        <div class="div5">
+            Свойства grid-template-columns и grid-template-rows устанавливают размер каждой колонки и каждой строки сетки.
+        </div>
+    </div>
+</body>
+</html>

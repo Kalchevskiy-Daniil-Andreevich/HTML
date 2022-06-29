@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Задание 4</title>
+    <style>
+        fieldset{
+            background-color: indigo;
+            color: white;
+            width:40%;
+        }
+
+        form {
+            font-size: 1.2em;
+        }
+
+        input {
+            margin-left: 8rem;
+            margin-top: 0px;
+            margin-bottom: 25px;
+            background-color: rgba(255,255,255,.5);
+            box-shadow: inset 0 0 10px rgba(255,255,255,.75);
+            color:white;
+        }
+        .label {
+            display: inline-block;
+            width: 12em;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        button {
+            vertical-align: top;
+            background-color: navy;
+            box-shadow: 0 0 4px white;
+            color:white;
+        }
+
+        input:focus[type="text"] {
+            background-color: white;
+            color: black;
+        }
+
+        input:focus[type="resert"] {
+            background-color: white;
+            color: black;
+        }
+
+        input:focus[type="submit"] {
+            background-color: white;
+            color: black;
+        }
+
+        input:focus[type="date"] {
+            background-color: white;
+            color: black;
+        }
+
+        input:focus[type="checkbox"] {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h3>Регистрация постоянного клиента</h3>
+            <div>
+                <label class="label">Фамилия:</label>
+                <input type="text" />
+                </div>
+                <div>
+                <label class="label">Имя:</label>
+                <input type="text" />
+                </div>
+                <div>
+                <label class="label">Отчество:</label>
+                <input type="text" />
+                </div>
+                <div>
+                    <label class="label">Возраст:</label>
+                    <input type="text" />
+                </div>
+                <div>
+                    <span class="label">Пол:</span>
+                    <label><input type="checkbox" />Мужской</label>
+                    <label><input type="checkbox" style="margin-left:5px" />Женский</label>
+                </div>
+                <div>
+                    <label class="label">Email:</label>
+                    <input type="email" />
+                </div>
+                <div>
+                    <label class="label">Страна проживания:</label>
+                    <input type="text" />
+                </div>
+                <div>
+                    <label class="label" style="margin-right:130px">Откуда вы узналии о нас?</label>
+                    <select>
+                        <option>Выберите вариант</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="label" style="margin-top:30px;">Дата заполнения:</label>
+                    <input type="date" style="margin-top:30px;" />
+                </div>
+                <div>
+                    <button type="submit" style="margin-left:350px;">Регистрация</button>
+                    <button type="reset">Отмена</button>
+              </div>
+            </fieldset>
+    </form>
+</body>
+</html>

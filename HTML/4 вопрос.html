@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Оформления заказов</title>
+</head>
+<body>
+    <h1>
+       Оформить заказ
+    </h1>
+    <table width="80%" cellspacing="0" cellpadding="8">
+        <tr>
+            <td>Имя</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>телефон</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td valign="top">адрес</td>
+            <td><textarea rows="10" cols="45" style="resize: none"></textarea></td>
+        </tr>
+        <tr>
+            <td valign="top">способ оплаты</td>
+            <td>
+                <input type="radio" name="1" id="1">
+                <label for="1">наличными</label>
+                <p>
+                    <input type="radio">
+                    <label for="2">пластиковая карта</label>
+                <p>
+                    <input type="radio">
+                    <label for="3">безналичный расчёт</label>
+            </td>
+        </tr>
+        <tr>
+            <td>желаемый день доставки</td>
+            <td>
+                <select size="1" name="1">
+                    <option disabled="1">Выберите день</option>
+                    <option value="2">Понедельник</option>
+                    <option value="3">Вторник</option>
+                    <option value="4">Среда</option>
+                    <option value="5">Четверг</option>
+                    <option value="6">Пятница</option>
+                    <option value="7">Суббота</option>
+                    <option value="8">Воскресенье</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">дополнительно</td>
+            <td>
+                <input type="checkbox" name="6">
+                <label for="6">перед доставкой свяжитесь со мной</label>
+                <p>
+                    <input type="checkbox" name="7">
+                    <label for="7">курьер должен быть трезвым</label>
+                <p><input type="submit" value="Отправить">
+            </td>
+        </tr>
+    </table>
+    </head>
+    </body>
+</html>

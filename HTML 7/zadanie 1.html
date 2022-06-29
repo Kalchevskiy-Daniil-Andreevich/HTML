@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Задание 1</title>
+    <style>
+div{
+    display:inline-block;
+    width:20%;
+}
+.qw:hover{
+    transform:scale(0.5);
+    transition:1s;
+}
+#er{
+    transform:rotate(45deg);
+}
+#ty{
+    transform:translate(50px);
+}
+.ui:hover{
+    transform:skew(-20deg);
+    transition:1s;
+}
+        @keyframes fade {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0.8
+            }
+        }
+
+        h1 {
+            text-align: center;
+            animation: fade 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Картинки</h1>
+    <div>
+        <figure>
+            <img src="japan.jpg" width="250" height="250" class="qw"/>
+        </figure>
+    </div>
+
+    <div id="er">
+        <figure>
+            <img src="argentina.jpg" width="250" height="250" />
+        </figure>
+    </div>
+
+    <div id="ty">
+        <figure>
+            <img src="china.jpg" width="250" height="250" />
+        </figure>
+    </div>
+
+    <div id="ui">
+        <figure>
+            <img src="italia.jpg" width="250" height="250" class="ui" />
+        </figure>
+    </div>
+</body>
+</html>

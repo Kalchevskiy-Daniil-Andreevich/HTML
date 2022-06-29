@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Задания 1,4</title>
+    <style>
+        .all {
+            width: 900px;
+            height: 300px;
+        }
+
+        .block {
+            display: flex;
+            justify-content: space-between; /*Горизонталь + промежутки*/
+            align-items: stretch;
+            flex-wrap: wrap;
+        }
+
+        .content1 {
+            align-items: flex-start;
+            flex-basis: 900px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        .break {
+            flex-basis: 100%;
+            height: 0;
+        }
+
+        .content2 {
+            flex: 1px 10px 10px;
+            flex-basis: 290px;
+            text-align: center;
+            border: 1px solid black;
+            margin-top: 10px;
+        }
+
+        .content3 {
+            flex: 1px 10px 10px;
+            flex-basis: 440px;
+            text-align: center;
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .div1 {
+            grid-row-start: 1;
+            grid-row-end: 1;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            border: 1px solid black;
+        }
+
+        .div2 {
+            border: 1px solid black;
+        }
+
+        .grid1 {
+            display: grid;
+            grid-template-columns: 25px 320px 320px 25px 320px 320px 25px;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
+            grid-gap: 10px;
+        }
+
+        .div_2 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            border: 1px solid black;
+        }
+
+        .div_3 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            border: 1px solid black;
+        }
+
+        .div_4 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 5;
+            grid-column-end: 5;
+            border: 1px solid black;
+        }
+
+        .div_5 {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 6;
+            grid-column-end: 6;
+            border: 1px solid black;
+            height: 80px;
+        }
+
+        .div_5_2 {
+            margin-top: 30px;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 6;
+            grid-column-end: 6;
+            border: 1px solid black;
+            height: 80px;
+        }
+
+        .div_6 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 7;
+            grid-column-end: 7;
+            border: 1px solid black;
+        }
+
+        .div_1 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            border: 1px solid black;
+        }
+
+        .pusto {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 4;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div>
+            <div class="block">
+                <div class="content1">
+                    Система модульной верстки Skeleton
+                </div>
+                <div class="break">
+
+                </div>
+                <div class="content2">
+                    агруженный архив содержит несколько папок и файлов.
+                </div>
+                <div class="content2">
+                    В каталоге css расположены необходимые файлы normalize.css, который сбрасывает
+                </div>
+                <div class="content2">
+                    Система Skeleton — адаптивная система модульной верстки вебстраниц.
+                </div>
+                <div class="content3">
+                    Flexbox-верстка — разметка макетов веб-страниц, которая позволяет
+                </div>
+                <div class="content3">
+                    С помощью display: flex; осуществляется преобразование
+                </div>
+            </div>
+        </div>
+        <div class="grid1">
+            <div class="div_1">
+                <p>H</br>T</br>M</br>L</br></p>
+            </div>
+            <div class="div_2">
+                Например, на рис. 9.1 элемент с классом grid становится контейнером сетки, его потомки элементами сетки и занимает 100% доступной ширины.
+                Свойства grid-template-columns и grid-template-rows устанавливают размер каждой колонки и каждой строки сетки.
+            </div>
+            <div class="div_3">
+                Для выравнивания содержимого используется justify-self по горизонтали или align-self по вертикали. Чтобы объединить ячейки сетки используются свойства grid-column-start(grid-column-end) и grid-rowstart(grid-row-end), значениями которых указывается номер линии сетки. Результат кода на рис. 9.5 представлен на рис. 9.6
+            </div>
+            <div class="pusto">
+            </div>
+            <div class="div_4">
+                Grid-верстка — это разбиение макета на области. Сетка (grid) представляет собой совокупность пересекающихся горизонтальных и вертикальных линий, делящих пространство grid-контейнера на области сетки, в которые могут быть помещены содержимое элементов сетки.
+            </div>
+            <div class="div_5">
+                Система модульной верстки основана на создании следующих элементов:
+                1.  Контейнера. Контейнер div содержит одну или несколько строк.
+            </div>
+            <div class="div_5_2">
+                2.  Строки. Это также div элемент, помещенный в контейнер.
+                3.  Колонки. Колонки определяются элементами div в строке.
+            </div>
+            <div class="div_6">
+                <p>C</br>S</br>S</br>3</br></p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src= "argentina.jpg" width="250" height="250"/>
+    </div>
+    <div>
+        <img src= "brazilia.jpg" width="250" height="250" />
+    </div>
+    <div>
+        <img src= "mexico.jpg" width="250" height="250" />
+    </div>
+    <div>
+        <img src= "norvegia.jpg" width="250" height="250"/>
+    </div>
+</body>
+</html>

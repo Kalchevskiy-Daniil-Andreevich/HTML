@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+	<body>
+		<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink">
+		<a xlink:href="brazilia.jpg"><circle r="80" cx="150" cy="120"
+		fill="red"/></a>
+		</svg>
+	</body>

@@ -1,0 +1,33 @@
+div {
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+}
+#qw {
+	border: 3px solid black;
+	background-image: linear-gradient(to top, red, blue);
+}
+#er {
+	border: 3px solid black;
+	background-image: repeating-linear-gradient(45deg, red 20px, blue 30px, white 40px);
+}
+#ty {
+	border: 3px solid black;
+	background-image: radial-gradient(yellow, green);
+}
+#ui {
+	border: 3px solid black;
+	background-image: repeating-radial-gradient(circle, green, green 10px, yellow 10px, yellow 20px);
+}
+#op {
+	border: 3px solid black;
+	background-image: radial-gradient(yellow, green,transparent), 
+	linear-gradient(to top, magenta, transparent),
+	linear-gradient(to bottom, blue, transparent);
+}
+#as {
+	border: 3px solid black;
+	background-image: linear-gradient(to right, yellow 20%,green 20%, transparent),
+					linear-gradient(180deg, black 10%,white 30%, transparent),
+					linear-gradient(0deg,purple 30%,blue 10%, transparent);
+}

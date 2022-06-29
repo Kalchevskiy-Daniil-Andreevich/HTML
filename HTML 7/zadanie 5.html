@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Задание 5</title>
+    <style>
+        @keyframes first  {
+            0% {
+                left: 0; 
+            }
+            100% {
+                left: 200px; 
+            }
+        }
+        .div {
+            animation: first 3s linear infinite;
+            position: relative;
+            margin-left: 600px;
+        }
+
+
+        @keyframes second {
+            0% {
+                top: 0;
+            }
+
+            100% {
+                top: 200px;
+            }
+        }
+        .div1 {
+            animation: second 3s linear infinite;
+            position: relative;
+            margin-left:600px;
+        }
+
+
+        @keyframes third {
+            0% {
+                left: 0;
+                top: 0;
+            }
+
+            25% {
+                left: 200px;
+                top: 0;
+            }
+
+            50% {
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                left: 0;
+                top: 200px;
+            }
+
+            100% {
+                left: 0;
+                top: 0;
+            }
+        }
+        .div2 {
+            animation: third 3s linear infinite;
+            position: relative;
+            margin-left: 600px;
+        }
+
+        @keyframes fourth {
+            0% {
+                left: 150px;
+                top: 120px;
+            }
+
+            25% {
+                left: 200px;
+                top: 150px;
+            }
+
+            50% {
+                left: 200px;
+                top: 100px;
+            }
+
+            75% {
+                left: 130px;
+                top: 200px;
+            }
+
+            100% {
+                left: 120px;
+                top: 140px;
+            }
+        }
+        .div3 {
+            animation: fourth 3s linear infinite;
+            position: relative;
+            margin-left: 600px;
+        }
+        @keyframes fade{
+            0%{opacity:0;}
+            100%{opacity:0.8}
+        }
+        h1{
+            text-align:center;
+            animation:fade 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Эффекты</h1>
+    <div>
+            <img src="japan.jpg" width="250" height="250" class="div" />
+    </div>
+
+    <div>
+            <img src="argentina.jpg" width="250" height="250" class="div1" />
+    </div>
+    
+    <div>
+            <img src="china.jpg" width="250" height="250"  class="div3"/>
+    </div>
+
+    <div>
+        <img src="mexico.jpg" width="250" height="250" class="div2" />
+    </div>
+</body>
+</html>

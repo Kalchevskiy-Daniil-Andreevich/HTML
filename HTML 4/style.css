@@ -1,0 +1,31 @@
+table {
+	border-spacing: 0px;
+	empty-cells: hide;
+	width:20%;
+	text-align:center;
+	color:black;
+}
+
+caption{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+td:nth-child(2){
+	background-color:#00bfff; color:white;
+}
+
+td:nth-child(3) {
+	background-color: purple; color:white;
+}
+
+td:nth-child(4) {
+	background-color: green;color:white;
+}
+
+#bl {
+background-color:darkblue;
+}
+td{
+	border:1px solid;
+}

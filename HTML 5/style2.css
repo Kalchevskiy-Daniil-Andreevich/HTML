@@ -1,0 +1,64 @@
+#qw {
+  border-color:orange darkblue yellow brown;
+  border-width:3px 3px 3px 3px;
+  border-style:solid;
+  width:400px;
+  border-width:10px;
+}
+#er {
+    border-left: 3px solid #007BA7;
+    border-right: 3px solid #007BA7;
+    border-width: 10px;
+    width: 400px;
+}
+#ty {
+    border-top: 3px solid rgb(229 43 80);
+    border-left: 3px dashed blue;
+    border-bottom: 3px dashed blue;
+    border-right: 3px dashed blue;
+    border-width: 10px;
+    width: 400px;
+}
+#ui {
+    border: 1px dotted orange;
+    border-width: 10px;
+    width: 400px;
+}
+#op {
+    border-left: 2px dashed rgb(176, 0, 0);
+    border-top: 2px solid rgb(0, 0, 139);
+    border-bottom: 2px solid rgb(0, 0, 139);
+    border-right: 2px dashed rgb(176, 0, 0);
+    border-width: 10px;
+    width: 400px;
+}
+#as {
+    border: 8px double #B3446C;
+    border-width: 10px;
+    width: 400px;
+}
+#df {
+    border-top: 1px dashed #808000;
+    border-bottom: 3px solid #FF7518;
+    border-width: 10px;
+    width: 400px;
+}
+#gh {
+    border-left: 3px double #CC7722;
+    border-bottom: 3px double #CC7722;
+    border-width: 10px;
+    width: 400px;
+}
+#jk {
+    border-right: 3px ridge #B5A642;
+    border-top: 3px ridge #B5A642;
+    border-width: 10px;
+    width: 400px;
+}
+#lz {
+    border-left: 5px dotted rgb(0 40 0);
+    border-bottom: 5px dotted rgb(0 40 0);
+    border-right: 5px dotted rgb(0 40 0);
+    border-width: 10px;
+    width: 400px;
+}

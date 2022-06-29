@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>1 Задания</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 40px 40px 40px;
+            grid-gap: 10px;
+            margin-left: 360px;
+        }
+
+        .div1 {
+            grid-row-start: 1;
+            grid-row-end: 1;
+            grid-column-start: 1; 
+            grid-column-end: 4;
+            border: 3px solid black;
+            justify-self: center;
+        }
+
+        .div2 {
+            border: 3px solid black;
+            justify-self:center;
+        }
+
+        .grid1 {
+            display: grid;
+            grid-template-columns: 30px 150px 150px 20px 150px 150px 20px;
+            grid-template-rows:    140px 110px 10px;
+            grid-gap: 10px;
+            margin-left: 300px;
+        }
+        .div_1 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            border: 3px solid black;
+            justify-self: center;
+        }
+
+        .div_2 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            border: 3px solid black;
+            justify-self: center;
+        }
+
+        .div_3 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            border: 3px solid black;
+            justify-self: center;
+        }
+
+        .div_4 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 5;
+            grid-column-end: 5;
+            border: 3px solid black;
+            justify-self: center;
+        }
+
+        .div_5 {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 6;
+            grid-column-end: 6;
+            border: 3px solid black;
+        }
+
+        .div_5_2 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 6;
+            grid-column-end: 6;
+            border: 3px solid black;
+       
+        }
+
+        .div_6 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 7;
+            grid-column-end: 7;
+            border: 3px solid black;
+            justify-self: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="grid">
+            <div class="div1">
+                Понятие модульной сетки
+            </div>
+            <div class="div2">
+              Контейнер div содержит одну или несколько строк.
+            </div>
+            <div class="div2">Это также div элемент, помещенный в контейнер.</div>
+            <div class="div2">Колонки определяются элементами div в строке.</div>
+        </div>
+        <div class="grid1">
+            <div class="div_1">H
+                               T
+                               M
+                               L
+            </div>
+            <div class="div_2">
+                элемент с классом grid становится контейнером
+                сетки, его потомки элементами сетки и занимает 100% доступной ширины.
+                Свойства grid-template-columns и grid-template-rows устанавливают размер
+                каждой колонки и каждой строки сетки.
+            </div>
+            <div class="div_3">
+                Для выравнивания содержимого используется justify-self по
+                горизонтали или align-self по вертикали. Чтобы объединить ячейки сетки
+                используются свойства grid-column-start(grid-column-end) и grid-rowstart(grid-row-end).
+            </div>
+            <div class="pusto">
+            </div>
+            <div class="div_4">
+                Grid-верстка — это разбиение макета на области. Сетка (grid)
+                представляет собой совокупность пересекающихся горизонтальных и
+                вертикальных линий, делящих пространство grid-контейнера на области
+                сетки.
+            </div>
+            <div class="div_5">
+                Система Skeleton основана на модульной сетке, состоящей из 12
+                столбцов.
+            </div>
+            <div class="div_5_2">
+                Предварительно необходимо создать grid-контейнеры с помощью
+                display: grid или display: inline-grid.
+            </div>
+            <div class="div_6">C
+                               S
+                               S
+                               3
+            </div>
+        </div>
+    </div>
+</body>
+</html>

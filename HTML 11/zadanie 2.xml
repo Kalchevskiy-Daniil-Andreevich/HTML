@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="StyleSheet1.css"?>
+<!DOCTYPE FACULTY [
+	<!ELEMENT FACULTY (NAME, TIME, COUNTRY, AGE, STUDIO)>
+	<!ELEMENT NAME (#PCDATA)>
+	<!ELEMENT TIME (#PCDATA)>
+	<!ELEMENT COUNTRY (#PCDATA)>
+	<!ELEMENT AGE (#PCDATA)>
+	<!ELEMENT STUDIO (#PCDATA)>
+]>
+<FACULTY>
+	<SPECIALIZATION>
+		<NAME>Холодное сердце</NAME>
+		<TIME>1:38</TIME>
+		<COUNTRY>USA</COUNTRY>
+		<AGE>6+</AGE>
+		<STUDIO>Уолт Дисней</STUDIO>
+	</SPECIALIZATION>
+
+	<SPECIALIZATION>
+		<NAME>Веном 2</NAME>
+		<TIME>1:36</TIME>
+		<COUNTRY>USA</COUNTRY>
+		<AGE>16+</AGE>
+		<STUDIO>Sony</STUDIO>
+	</SPECIALIZATION>
+</FACULTY>

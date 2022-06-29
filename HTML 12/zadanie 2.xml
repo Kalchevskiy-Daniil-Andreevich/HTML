@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_2.xsl'?>
+<NACH>
+	<TABLE>
+		<NAME> Danik </NAME>
+		<OZENKA> 7 </OZENKA>
+	</TABLE>
+	<TABLE>
+		<NAME> Kiril </NAME>
+		<OZENKA> 8 </OZENKA>
+	</TABLE>
+	<TABLE>
+		<NAME> Dasha </NAME>
+		<OZENKA> 9 </OZENKA>
+	</TABLE>
+	<TABLE>
+		<NAME> Maria </NAME>
+		<OZENKA> 2 </OZENKA>
+	</TABLE>
+	<TABLE>
+		<NAME> Ignat </NAME>
+		<OZENKA> 5 </OZENKA>
+	</TABLE>
+	<TABLE>
+		<NAME> Anton </NAME>
+		<OZENKA> 1 </OZENKA>
+	</TABLE>
+</NACH>

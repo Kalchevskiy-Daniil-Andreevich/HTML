@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Задание 2</title>
+    <style>
+div{
+    display:inline-block;
+    background:yellow;
+    border:3px solid black;
+    height:100px;
+    width:240px;
+    text-align:center;
+    margin-left:100px;
+    margin-top:20px;
+}
+        #id {
+            transform-style: preserve-3d;
+            transform: perspective(200px) rotateX(45deg);
+        }
+        #mn {
+            transform-style: preserve-3d;
+            transform: perspective(350px) rotateY(45deg);
+        }
+#bv{
+    transform-style:preserve-3d;
+     transform:perspective(350px) rotateY(-45deg);
+}
+        #nm1 {
+            transform-style: preserve-3d;
+            transform: perspective(350px) rotateX(-45deg);
+        }
+    @keyframes fade{
+            0%{opacity:0;}
+            100%{opacity:0.8}
+        }
+        h1{
+            text-align:center;
+            animation:fade 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Изображении</h1>
+    <div id="id">
+        Изображение 1
+    </div>
+        
+    <div id="mn">
+        Изображени 2
+    </div>
+        
+    <div id="nm1">
+       Изображение 3
+    </div>
+
+    <div id="bv">
+        Изображение 4
+    </div>
+</body>
+</html>

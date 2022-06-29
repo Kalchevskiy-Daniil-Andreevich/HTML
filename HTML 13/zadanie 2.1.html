@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Задания 2</title>
+</head>
+<body>
+     <div>
+         <p><span id="film"></span></p>
+         <p><span id="time"></span></p>
+         <p><span id="country"></span></p>
+         <p><span id="age"></span></p>
+         <p><span id="studio"></span></p>
+     </div>
+<script>
+txt = "<name>";
+txt = txt + "<film>Venom 2</film>";
+txt = txt + "<time>1:36</time>";
+txt = txt + "<country>USA</country>";
+txt = txt + "<age>16+</age>";
+txt = txt + "<studio>Sony</studio>";
+txt = txt +"</name>";
+if (window.DOMParser)
+    {
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(txt,"text/xml");
+    }
+else 
+    {
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async = false;
+        xmlDoc.loadXML(txt);
+    }
+document.getElementById("film").innerHTML = xmlDoc.getElementsByTagName("film")
+[0].childNodes[0].nodeValue;
+document.getElementById("time").innerHTML = xmlDoc.getElementsByTagName("time")
+[0].childNodes[0].nodeValue;
+document.getElementById("country").innerHTML = xmlDoc.getElementsByTagName("country")
+[0].childNodes[0].nodeValue;
+document.getElementById("age").innerHTML = xmlDoc.getElementsByTagName("age")
+[0].childNodes[0].nodeValue;
+document.getElementById("studio").innerHTML = xmlDoc.getElementsByTagName("studio")
+[0].childNodes[0].nodeValue;
+</script>
+</body>
+</html>

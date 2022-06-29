@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" standalone="no" ?>
+<svg width="460" height="160" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+    <circle r="40" cx="45" cy="70" fill="url(#RadialGradient1)" />
+    <rect id="rect" width="84" height="82" x="95" y="30" rx="0" ry="0" fill="red" stroke="red" stroke-width="5" />
+    <animate xlink:href="#rect" attributeName="stroke" from="red" to="limegreen" dur="2s" begin="click" fill="freeze" />
+    <ellipse id="elips" rx="70" ry="40" cx="260" cy="72" fill="green" />
+    <animate xlink:href="#elips" attributeName="fill" from="green" to="blue" dur="2s" begin="click" fill="freeze" />
+    <polygon id="poly" points="350,115, 400,50 450,115" fill="url(#RadialGradient2)" stroke="url(#RadialGradient2)" stroke-width="5" />
+    <animate xlink:href="#poly" attributeName="stroke" from="red" to="pink" dur="4s" begin="mouseover" fill="freeze" />
+
+    <line x1="5" y1="120" x2="220" y2="120" stroke="purple" stroke-width="2" />
+    <line x1="220" y1="120" x2="160" y2="150" stroke="purple" stroke-width="2" />
+    <line x1="160" y1="150" x2="450" y2="150" stroke="purple" stroke-width="2" />
+    <defs>
+
+        <linearGradient id="RadialGradient2" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="green" />
+            <stop offset="100%" stop-color="orange" />
+        </linearGradient>
+
+        <radialGradient id="RadialGradient1">
+            <stop offset="0%" stop-color="red" />
+            <stop offset="100%" stop-color="blue" />
+        </radialGradient>
+
+    </defs>
+</svg>

@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Задания 2</title>
+    <style>
+        div {
+            background-color: red;
+            border: 2px solid black;
+            padding: 5px;
+            display: inline;
+        }
+
+        .nav div {
+            display: inline;
+            margin: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            justify-content: center;
+        }
+
+        li {
+            display: inline;
+            height: 30px;
+            width: 150px;
+        }
+
+        div.main_div {
+            visibility: hidden;
+            width: 50px;
+        }
+
+        @media (max-width: 560px) {
+            li {
+                display: block;
+            }
+
+            .nav div {
+                display: block;
+            }
+
+            div.main_div {
+                visibility: visible;
+            }
+
+            ul.second {
+                visibility: hidden;
+                opacity: 0;
+                transform: translateY(-10px);
+                transition: all 0.3s ease;
+            }
+
+            .nav li:hover .second {
+                visibility: visible;
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li>
+            <div class="main_div">Меню</div>
+            <ul class="second">
+                <li>
+                    <div>Первая ячейка</div>
+                </li>
+
+                <li>
+                    <div>Вторая ячейка</div>
+                </li>
+
+                <li>
+                    <div>Третья ячейка</div>
+                </li>
+
+                <li>
+                    <div>Четвертая ячейка</div>
+                </li>
+
+                <li>
+                    <div>Пятая ячейка</div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

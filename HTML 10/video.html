@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>zadanie_3</title>
+    <style>
+        div {
+            visibility: visible;
+            width: 40%;
+            text-align: center;
+        }
+
+        .menu {
+            display: none;
+            border: 2px solid black;
+        }
+
+        video {
+            width: 90%;
+        }
+
+        @media (max-width: 560px) {
+            .menu {
+                display: block;
+            }
+
+            p {
+                display: none;
+            }
+
+            div:hover > p {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="menu">Меню</p>
+        <p>
+            first
+            <audio controls>
+                <source src="video.mp4" type="audio/mpeg" />
+            </audio>
+        </p>
+        <p>
+            twist
+            <audio controls>
+                <source src="" type="audio/mpeg" />
+            </audio>
+        </p>
+
+        <p>
+            first
+            <video controls>
+                <source src="video.mp4" />
+            </video>
+        </p>
+        <p>
+            twist
+            <video controls>
+                <source src="" />
+            </video>
+        </p>
+        <p>
+            third
+            <video controls>
+                <source src="" />
+            </video>
+        </p>
+    </div>
+</body>
+</html>
